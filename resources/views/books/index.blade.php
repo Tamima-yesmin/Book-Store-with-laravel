@@ -3,7 +3,7 @@
 @section('content')
     <div class="row">
         <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
+            <div class=" text-center mt-4">
                 <h2>Book Store </h2>
             </div>
             <div style="margin-top: 10px;">
@@ -42,7 +42,7 @@
                     <form action="{{route('books.destroy', $book->id)}}" method="POST">
 
                         <a href="{{route('books.show', $book->id)}}" title="show">
-                            <i class="fas fa-eye text-success  fa-lg"></i>
+                            <i class="fas fa-eye text-success  fa-lg "></i>
                         </a>
 
                         <a href="{{route('books.edit', $book->id)}}">

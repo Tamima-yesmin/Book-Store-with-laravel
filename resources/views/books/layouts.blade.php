@@ -14,7 +14,7 @@
     </script>
 
     <style>
-        .footer {
+        /* .footer {
             position: fixed;
             left: 0;
             bottom: 0;
@@ -22,6 +22,10 @@
             background-color: #9C27B0;
             color: white;
             text-align: center;
+        } */
+        .container{
+            margin: 40px 100px;
+           
         }
 
     </style>

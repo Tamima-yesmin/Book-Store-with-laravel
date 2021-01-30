@@ -3,7 +3,7 @@
 @section('content')
     <div class="row mt-5">
         <div class="col-lg-12 margin-tb">
-            <div class="pull-left">
+            <div class="text-center">
                 <h2>Edit</h2>
             </div>
             <div class="pull-right">
@@ -36,8 +36,10 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Book Name</strong>
-                    <textarea class="form-control" style="height:50px" name="book_name"
-                        placeholder="name">{{$books->book_name}}</textarea>
+                    <!-- <textarea class="form-control" style="height:50px" name="book_name"
+                        placeholder="name">{{$books->book_name}}</textarea> -->
+                        <input type="text" class="form-control"  name="book_name"
+                        placeholder="name">
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
