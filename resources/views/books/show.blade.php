@@ -30,26 +30,26 @@
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Book ID:</strong>
-                    <input type="text" name="bookId" class="form-control" placeholder="id" value="{{$books->bookId}}">
+                    <input type="text" name="bookId" class="form-control" placeholder="id" value="{{$books->bookId}}" readonly >
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Book Name</strong>
                     <textarea class="form-control" style="height:50px" name="book_name"
-                        placeholder="name">{{$books->book_name}}</textarea>
+                        placeholder="name" readonly>{{$books->book_name}}</textarea>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Publisher</strong>
-                    <input type="text" name="book_publisher" class="form-control" placeholder="publisher" value="{{$books->book_publisher}}">
+                    <input type="text" name="book_publisher" class="form-control" placeholder="publisher" value="{{$books->book_publisher}}" readonly>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12">
                 <div class="form-group">
                     <strong>Book Price</strong>
-                    <input type="number" name="book_price" class="form-control" placeholder="price" value="{{$books->book_price}}">
+                    <input type="number" name="book_price" class="form-control" placeholder="price" value="{{$books->book_price}}" readonly>
                 </div>
             </div>
             <div class="col-xs-12 col-sm-12 col-md-12 text-center">
